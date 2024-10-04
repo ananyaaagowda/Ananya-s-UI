@@ -4,7 +4,7 @@ import logo from "../images/logo.png";
 const Footer = () => {
   return (
     <div>
-      {/* First section */}
+      
       <div
         className="bg-[#F9FAFB] py-24"
         style={{
@@ -22,7 +22,7 @@ const Footer = () => {
             Join over 4,000+ startups already growing with Untitled.
           </p>
 
-          {/* Mobile and desktop button responsiveness */}
+         
           <div className="mt-6 flex flex-col md:flex-row justify-center items-center gap-2">
             <button className="bg-white border border-gray-300 text-gray-700 py-2 px-6 rounded-md w-10/12 md:w-auto mb-2 md:mb-0">
               Learn more
@@ -34,10 +34,10 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer section */}
+     
       <footer className="bg-white py-12">
         <div className="container mx-auto grid grid-cols-2 md:grid-cols-6 md:gap-8 gap-y-8 px-6">
-          {/* First Column */}
+         
           <div>
             <h3 className="font-semibold">Product</h3>
             <ul className="mt-4 space-y-2">
@@ -55,7 +55,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Second Column */}
+        
           <div>
             <h3 className="font-semibold">Company</h3>
             <ul className="mt-4 space-y-2">
@@ -68,7 +68,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Third Column */}
+        
           <div>
             <h3 className="font-semibold">Resources</h3>
             <ul className="mt-4 space-y-2">
@@ -81,7 +81,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Fourth Column */}
+         
           <div>
             <h3 className="font-semibold">Use cases</h3>
             <ul className="mt-4 space-y-2">
@@ -94,7 +94,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Fifth Column */}
+         
           <div>
             <h3 className="font-semibold">Social</h3>
             <ul className="mt-4 space-y-2">
@@ -107,7 +107,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Sixth Column */}
+         
           <div>
             <h3 className="font-semibold">Legal</h3>
             <ul className="mt-4 space-y-2">
@@ -122,7 +122,7 @@ const Footer = () => {
         </div>
         <div className="border-b border-gray-300 w-12/12 mt-4" />
 
-        {/* Mobile stacking for logo and text */}
+      
         <div className="pt-12 flex flex-col md:flex-row items-center justify-between pl-5 pr-5 w-10/12 mx-auto space-y-4 md:space-y-0">
           <div className="flex items-center">
             <img src={logo} alt="Logo" className="h-10 pr-6" />
