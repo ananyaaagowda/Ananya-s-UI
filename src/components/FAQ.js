@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-// Import images
 import image1 from "../images/Avatar/avatar-1.png";
 import image2 from "../images/Avatar/avatar-3.png";
 import image3 from "../images/Avatar/avatar-2.png";
@@ -46,7 +45,7 @@ const FAQ = () => {
 
   return (
     <div className="w-full py-12 md:py-24 px-4 md:px-8">
-      {/* First Container */}
+     
       <div className="max-w-screen-xl mx-auto text-center space-y-8">
         <h1 className="text-2xl md:text-3xl font-semibold leading-8 md:leading-[44px]">
           Frequently Asked Questions
@@ -56,12 +55,12 @@ const FAQ = () => {
         </p>
       </div>
 
-      {/* Second Container */}
+      
       <div className="max-w-screen-lg mx-auto py-8 md:py-16 space-y-8">
         {" "}
-        {/* Adjusted max width */}
+       
         <div className="space-y-4 md:space-y-8 w-full">
-          {/* FAQ Items */}
+         
           {faqs.map((faq, index) => (
             <div
               key={index}
@@ -86,12 +85,12 @@ const FAQ = () => {
         </div>
       </div>
 
-      {/* Third Container with Images and Background Color */}
+     
       <div className="max-w-screen-xl mx-auto py-8 md:py-16 space-y-8 text-center bg-[#F9FAFB] rounded-tl-[16px]">
-        {/* Images */}
+       
         <div className="relative w-full mx-auto flex justify-center items-center">
           <div className="relative w-[240px] h-[240px] mx-auto">
-            {/* Left Image */}
+           
             <div
               className="absolute w-[100px] h-[100px] rounded-full overflow-hidden border-2 border-white z-0 left-[-30px] top-[40px]"
               style={{ background: "#E0E0E0" }}
