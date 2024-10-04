@@ -32,7 +32,7 @@ const Blog = () => {
 
             
             <div className="flex flex-col md:flex-row md:gap-8 pt-10">
-              {/* Blog Post 1 */}
+              
               <div className="w-full max-w-[343px] h-auto gap-6 opacity-100 md:max-w-[384px] md:h-auto md:gap-6 pb-10">
                 <img src={blogImage1} alt="Blog Post 1" className="w-full h-[240px] object-cover" />
                 <div className="w-full h-auto">
