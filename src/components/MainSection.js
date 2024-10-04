@@ -3,7 +3,7 @@ import React from 'react';
 const MainSection = () => {
   return (
     <section className="w-full flex flex-col items-center my-12">
-      {/* New feature and dashboard link */}
+      
       <div
         className="flex items-center gap-3 p-1.5"
         style={{
@@ -16,7 +16,7 @@ const MainSection = () => {
           backgroundColor: '#E9D7FE',
         }}
       >
-        {/* New feature badge */}
+        
         <span
           className="px-4 py-1 font-medium text-sm"
           style={{
@@ -30,7 +30,7 @@ const MainSection = () => {
           New feature
         </span>
 
-        {/* Check out the team dashboard link */}
+        
         <p
           href="#"
           className="text-sm font-medium hover:no-underline"
@@ -40,7 +40,7 @@ const MainSection = () => {
         </p>
       </div>
 
-      {/* Main Heading and Description */}
+     
       <div className="text-center max-w-4xl mt-6"> {/* Increase margin-top to add more space */}
         <h1 className="text-5xl font-bold mb-4">
           Beautiful analytics to grow smarter
@@ -49,7 +49,7 @@ const MainSection = () => {
           Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.
         </p>
 
-        {/* Buttons */}
+      
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center w-full">
           <button className="px-6 py-3 w-11/12 sm:w-auto border border-[#7F56D9] text-[#7F56D9] rounded-lg bg-white mx-auto sm:mx-0">
             Demo
