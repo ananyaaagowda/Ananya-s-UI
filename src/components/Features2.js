@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Importing images
+
 import iPhoneImage from '../images/Features-Second/iPhone.png';
 import desktopImage from '../images/Features-Second/desktop.png';
 import inbox from '../images/Features/inbox.png';
@@ -38,7 +38,7 @@ const Features2 = () => {
       </div>
 
       <div className="relative w-full flex justify-center pb-10">
-        {/* Desktop Image with 10px black border (Only shown on larger screens) */}
+        
         <img
           src={desktopImage}
           alt="Desktop Analytics"
@@ -51,7 +51,7 @@ const Features2 = () => {
             borderColor: 'black',
           }}
         />
-        {/* iPhone Image with regular positioning */}
+      
         <img
           src={iPhoneImage}
           alt="iPhone Analytics"
@@ -59,9 +59,9 @@ const Features2 = () => {
         />
       </div>
 
-      {/* Feature Boxes */}
+     
       <div className="flex flex-col md:flex-row justify-center gap-4 md:gap-8 w-full">
-        {/* Box 1 */}
+       
         <div className="flex flex-col items-center w-full md:w-1/3 p-4 ">
           <img src={inbox} alt="Inbox" className="w-12 h-12 mb-4" />
           <h1 className="font-bold text-lg">Share team inboxes</h1>
@@ -72,7 +72,7 @@ const Features2 = () => {
             Learn more →
           </a>
         </div>
-        {/* Box 2 */}
+      
         <div className="flex flex-col items-center w-full md:w-1/3 p-4">
           <img src={instantAnswer} alt="Instant Answer" className="w-12 h-12 mb-4" />
           <h3 className="font-bold text-lg">Deliver instant answers</h3>
@@ -83,7 +83,7 @@ const Features2 = () => {
             Learn more →
           </a>
         </div>
-        {/* Box 3 */}
+      
         <div className="flex flex-col items-center w-full md:w-1/3 p-4">
           <img src={reports} alt="Reports" className="w-12 h-12 mb-4" />
           <h3 className="font-bold text-lg">Manage your team with reports</h3>
