@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import desktopImage from '../images/image-1.png'; // Desktop image
-import mobileImage from '../images/Features-Second/desktop.png';  // Mobile image
+import desktopImage from '../images/image-1.png'; 
+import mobileImage from '../images/Features-Second/desktop.png';  
 
 const ImageSection = () => {
   const [isMobile, setIsMobile] = useState(false);
 
-  // Detect window size and adjust the image source and styles
+ 
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 640); // Mobile view if screen width is 640px or less
