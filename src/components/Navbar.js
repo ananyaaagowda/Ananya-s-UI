@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { MenuIcon, XIcon } from '@heroicons/react/outline'; // Icons for hamburger menu (you can install Heroicons if not done already)
-import logo from '../images/logo.png'; // Import your logo
-import profileImage from '../images/header-image.png'; // Import the right-side image
+import { MenuIcon, XIcon } from '@heroicons/react/outline'; 
+import logo from '../images/logo.png'; 
+import profileImage from '../images/header-image.png'; 
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,13 +12,13 @@ const Navbar = () => {
 
   return (
     <nav className="w-full bg-white flex items-center justify-between p-4 md:px-10" style={{ borderBottom: '1px solid #E5E7EB' }}>
-      {/* Left side with logo and navigation */}
+     
       <div className="flex items-center space-x-8">
-        {/* Logo */}
+       
         <img src={logo} alt="Logo" className="h-10" />
         <div className="text-xl font-semibold pl-2">Ananya's UI</div>
 
-        {/* Navigation links - visible on medium and larger screens */}
+       
         <div className="hidden md:flex items-center space-x-8">
           <p className="text-gray-600 font-medium hover:text-[#7F56D9]">Home</p>
           <div className="relative">
@@ -41,12 +41,11 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Right side with profile image - visible on medium and larger screens */}
+      
       <div className="hidden md:flex items-center space-x-4">
         <img src={profileImage} alt="Profile" className="w-10 h-10 rounded-full bg-gray-300" />
       </div>
 
-      {/* Menu icon for mobile */}
       <div className="md:hidden ml-4" onClick={toggleMenu}>
         {menuOpen ? (
           <XIcon className="w-6 h-6 text-gray-600" />
@@ -55,7 +54,7 @@ const Navbar = () => {
         )}
       </div>
 
-      {/* Mobile menu - shows up when the menu icon is clicked */}
+     
       {menuOpen && (
         <div className="absolute top-20 left-0 w-full bg-white shadow-md flex flex-col items-center space-y-4 py-4 md:hidden">
           <p className="text-gray-600 font-medium hover:text-[#7F56D9]">Home</p>
