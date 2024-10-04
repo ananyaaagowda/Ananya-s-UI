@@ -9,7 +9,7 @@ import support from '../images/Features/support.png';
 const Features = () => {
   return (
     <div className="w-full flex flex-col items-center py-24 gap-16">
-      {/* First Container */}
+     
       <div className="text-center">
         <h6 className="text-[#6941C6] text-[16px] font-semibold leading-[24px] mb-2">
           Features
@@ -23,7 +23,7 @@ const Features = () => {
         </p>
       </div>
 
-      {/* Second Container */}
+     
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center w-full max-w-[1280px] mx-auto px-4 gap-8">
         {/* First Row of Boxes */}
         <div className="flex flex-col md:flex-row w-full gap-8">
@@ -36,7 +36,7 @@ const Features = () => {
               page and in the loop.
             </p>
           </div>
-          {/* Box 2 */}
+          
           <div className="flex flex-col items-center w-full md:w-[384px] gap-4">
             <img src={instantAnswer} alt="Instant Answer" className="w-[48px] h-[48px]" />
             <h3 className="font-bold text-[20px]">Deliver instant answers</h3>
@@ -45,7 +45,7 @@ const Features = () => {
               customers need to be happy.
             </p>
           </div>
-          {/* Box 3 */}
+         
           <div className="flex flex-col items-center w-full md:w-[384px] gap-4">
             <img src={reports} alt="Reports" className="w-[48px] h-[48px]" />
             <h3 className="font-bold text-[20px]">Manage your team with reports</h3>
@@ -56,9 +56,9 @@ const Features = () => {
           </div>
         </div>
 
-        {/* Second Row of Boxes */}
+       
         <div className="flex flex-col md:flex-row w-full gap-8 mt-8 md:mt-0">
-          {/* Box 4 */}
+         
           <div className="flex flex-col items-center w-full md:w-[384px] gap-4">
             <img src={customers} alt="Connect with Customers" className="w-[48px] h-[48px]" />
             <h3 className="font-bold text-[20px]">Connect with customers</h3>
@@ -67,7 +67,7 @@ const Features = () => {
               customers are seamlessly routed to email without confusion.
             </p>
           </div>
-          {/* Box 5 */}
+         
           <div className="flex flex-col items-center w-full md:w-[384px] gap-4">
             <img src={integrations} alt="Tools" className="w-[48px] h-[48px]" />
             <h3 className="font-bold text-[20px]">Connect the tools you already use</h3>
@@ -76,7 +76,7 @@ const Features = () => {
               familiar. Plus, our extensive developer tools.
             </p>
           </div>
-          {/* Box 6 */}
+         
           <div className="flex flex-col items-center w-full md:w-[384px] gap-4">
             <img src={support} alt="Support" className="w-[48px] h-[48px]" />
             <h3 className="font-bold text-[20px]">Our people make the difference</h3>
