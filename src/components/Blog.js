@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Import blog post images
 import blogImage1 from '../images/Blog/blog-1.png'; 
 import authorImage1 from '../images/Avatar/avatar-1.png';
 import blogImage2 from '../images/Blog/blog-2.png'; 
@@ -12,10 +11,10 @@ const Blog = () => {
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0', margin: '0' }}>
       <div className="h-auto py-16">
-        {/* First Container */}
+       
         <div className="w-full max-w-[1280px] px-4">
           <div className="flex flex-col gap-8">
-            {/* Blog Header */}
+           
             <div className="w-full gap-5 relative">
               <p className="text-purple-600 pb-4 font-bold">Our Blog</p>
               <h1 className="text-36 font-semibold leading-[44px] text-left pb-6" style={{ fontSize: '40px' }}>Latest Blog Posts</h1>
@@ -23,7 +22,7 @@ const Blog = () => {
                 Tools and strategies modern teams need to help their companies grow.
               </p>
 
-              {/* View All Posts Button (Desktop Only) */}
+              
               <div className="hidden md:block absolute top-0 right-0">
                 <button className="bg-purple-600 text-white h-[48px] px-5 rounded-md" style={{ borderRadius: '10px' }}>
                   View All Posts
@@ -31,7 +30,7 @@ const Blog = () => {
               </div>
             </div>
 
-            {/* Blog Posts Container */}
+            
             <div className="flex flex-col md:flex-row md:gap-8 pt-10">
               {/* Blog Post 1 */}
               <div className="w-full max-w-[343px] h-auto gap-6 opacity-100 md:max-w-[384px] md:h-auto md:gap-6 pb-10">
@@ -52,7 +51,7 @@ const Blog = () => {
                 </div>
               </div>
 
-              {/* Blog Post 2 */}
+             
               <div className="w-full max-w-[343px] h-auto gap-6 opacity-100 md:max-w-[384px] md:h-auto md:gap-6 pb-10">
                 <img src={blogImage2} alt="Blog Post 2" className="w-full h-[240px] object-cover" />
                 <div className="w-full h-auto">
@@ -71,7 +70,7 @@ const Blog = () => {
                 </div>
               </div>
 
-              {/* Blog Post 3 */}
+              
               <div className="w-full max-w-[343px] h-auto gap-6 opacity-100 md:max-w-[384px] md:h-auto md:gap-6">
                 <img src={blogImage3} alt="Blog Post 3" className="w-full h-[240px] object-cover" />
                 <div className="w-full h-auto">
